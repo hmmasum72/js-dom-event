@@ -31,3 +31,9 @@ const makeGreen = document.getElementById('make-green');
 makeGreen.addEventListener('click', function () {
     document.body.style.backgroundColor = 'green';
 })
+
+
+// option final
+document.getElementById('make-goldenrod').addEventListener('click', function(){
+    document.body.style.backgroundColor = 'goldenrod';
+})
